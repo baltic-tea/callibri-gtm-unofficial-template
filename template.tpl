@@ -2,13 +2,13 @@
 
 {
   "type": "TAG",
-  "id": "cvt_temp_public_id",
+  "id": "callibri_unofficial",
   "version": 1,
   "securityGroups": [],
   "displayName": "Callibri",
   "brand": {
-    "id": "brand_dummy",
-    "displayName": "",
+    "id": "callibri",
+    "displayName": "Callibri",
     "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEX/yAAAAAD/yAD/yAD/yAD/yAD/yACXdgCIawD/yAAAAAD8xQAJBwAQDAAeFwD4wgB2XQBsVQCDZgBgTABZRgAYEwBOPQAqIQDMz9s0AAAACXRSTlP6AE32woXB/vqYw+rsAAAAp0lEQVQ4y+XTSw7DIAwE0IGQtthAQj7t/W9aPlKRKkMWXXYiJRF+GlaGUtrAioHRSkHNdpBZQYuDe1xrrcZN6n4S0VGEAYT5Rilum/I/pIJIOfUSEay5wD+mHpjwSuAAdxuAuO+WrQTaIUMA7ZL02AFwRD6MAKU4EXDOAPg8GQHXA/4MIXAXtMHvwP8vKCJ8gfMDUBeHF05p3/xeCjDQdhh9ubyX6/8GfkkkrUBrdDIAAAAASUVORK5CYII\u003d"
   },
   "description": {
@@ -20,6 +20,11 @@
       }
     ]
   },
+  "categories": [
+    "ADVERTISING",
+    "ANALYTICS",
+    "LEAD_GENERATION"
+  ],
   "containerContexts": [
     "WEB"
   ]
