@@ -21,9 +21,9 @@
     ]
   },
   "categories": [
-    "ADVERTISING",
+    "LEAD_GENERATION",
     "ANALYTICS",
-    "LEAD_GENERATION"
+    "ADVERTISING"
   ],
   "containerContexts": [
     "WEB"
