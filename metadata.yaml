@@ -15,6 +15,8 @@
 homepage: "https://github.com/baltic-tea/"
 documentation: "https://github.com/baltic-tea/callibri-gtm-unofficial-template/blob/main/README.md"
 versions:
+  - sha: 9fc5eb3ec5a5ec451706bb4d5246d6f72e1576b7
+    changeNotes: Add warning logs for retry to load script.
   - sha: 7614ef3b3f91b39e425b82f3d34628c6a0c137c9
     changeNotes: Add terms of service to metadata.yaml.
   - sha: 1950cdea8aabd8598fafae9f05eb61acb26813c8
