@@ -79,7 +79,7 @@ const queryPermission = require('queryPermission');
 const copyFromWindow = require('copyFromWindow');
 const log = require('logToConsole');
 
-// Loading Callibri script 
+// Load script 
 function loadScript(url, onFailure) {
   if (queryPermission('inject_script', url)) {
     onFailure = onFailure || data.gtmOnFailure;
@@ -103,10 +103,17 @@ function loadScript(url, onFailure) {
   }
 }
 
-// Trying to load the script from different CDNs
+// Retry to load the script from a different URL
+function retryLoadScript() {
+  var url = "https://cdn.callibri.ru/callibri.js";
+  log("⚠️ Callibri: Script will be loaded from " + url);
+  log("⚠️ When integrating Callibri via GTM, it is recommended to load the script from gcdn.callibri.ru/callibri.js");
+  loadScript(url);
+}
+
 loadScript(
   "https://gcdn.callibri.ru/callibri.js",
-  () => { loadScript("https://cdn.callibri.ru/callibri.js"); }
+  retryLoadScript
 );
 
 
