@@ -33,15 +33,7 @@ ___INFO___
     "displayName": "Callibri",
     "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEX/yAAAAAD/yAD/yAD/yAD/yAD/yACXdgCIawD/yAAAAAD8xQAJBwAQDAAeFwD4wgB2XQBsVQCDZgBgTABZRgAYEwBOPQAqIQDMz9s0AAAACXRSTlP6AE32woXB/vqYw+rsAAAAp0lEQVQ4y+XTSw7DIAwE0IGQtthAQj7t/W9aPlKRKkMWXXYiJRF+GlaGUtrAioHRSkHNdpBZQYuDe1xrrcZN6n4S0VGEAYT5Rilum/I/pIJIOfUSEay5wD+mHpjwSuAAdxuAuO+WrQTaIUMA7ZL02AFwRD6MAKU4EXDOAPg8GQHXA/4MIXAXtMHvwP8vKCJ8gfMDUBeHF05p3/xeCjDQdhh9ubyX6/8GfkkkrUBrdDIAAAAASUVORK5CYII\u003d"
   },
-  "description": {
-    "text": "An unofficial template to initialize Callibri platform scripts on your website.",
-    "translations": [
-      {
-        "locale": "ru",
-        "text": "Неофициальный шаблон для инициализации скриптов платформы Callibri на вашем сайте."
-      }
-    ]
-  },
+  "description": "An unofficial template to initialize Callibri platform scripts on your website.",
   "categories": [
     "LEAD_GENERATION",
     "ANALYTICS",
